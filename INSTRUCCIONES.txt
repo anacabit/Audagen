@@ -1,0 +1,36 @@
+═══════════════════════════════════════════════
+  AGENDA EJECUTIVA — Instalación PWA
+═══════════════════════════════════════════════
+
+ARCHIVOS INCLUIDOS:
+  • calendario-ejecutivo.html  ← app principal
+  • manifest.json              ← configuración PWA
+  • sw.js                      ← modo offline
+  • icon-192.png               ← icono app
+  • icon-512.png               ← icono splash
+
+PASO A PASO — NETLIFY (más fácil):
+───────────────────────────────────
+1. Abre netlify.com/drop en tu navegador
+2. Crea una carpeta en tu teléfono llamada "agenda-pwa"
+3. Pon los 5 archivos dentro de esa carpeta
+4. Arrastra/sube la carpeta completa a la zona de Netlify
+5. Netlify te da una URL tipo: algo.netlify.app
+6. Abre esa URL en Chrome
+7. Chrome muestra "Añadir a pantalla de inicio"
+8. Toca "Instalar" → ¡ya está como app!
+
+PASO A PASO — GitHub Pages:
+───────────────────────────
+1. Crea cuenta en github.com
+2. Nuevo repositorio público llamado "agenda"
+3. Sube los 5 archivos
+4. Ve a Settings → Pages → Source: main
+5. URL: tuusuario.github.io/agenda/calendario-ejecutivo.html
+6. Abre en Chrome → instalar
+
+NOTAS:
+• Funciona sin internet una vez instalada
+• Los datos se guardan en el dispositivo
+• Compatible con Chrome (Android) y Safari (iPhone)
+═══════════════════════════════════════════════
